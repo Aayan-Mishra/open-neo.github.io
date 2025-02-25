@@ -2,19 +2,19 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "NovaSky";
-export const SITE_TITLE = "NovaSky";
+export const BRAND_NAME = "Open-Neo";
+export const SITE_TITLE = "Open-Neo";
 export const SITE_DESCRIPTION = "Next-generation Open Vision and AI @ Berkeley Sky Computing Lab";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "NovaSky - All Tags";
+export const Tags_TITLE = "Open-Neo - All Tags";
 export const Tags_DESCRIPTION =
-  "NovaSky - All tags and the count of articles related to each tag";
+  "Open-Neo - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in NovaSky`,
+    title: `All articles on '${tag}' tag in Open-Neo`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -22,8 +22,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in NovaSky`,
-    description: `Browse all articles under the ${category} category in NovaSky`,
+    title: `All articles in '${category}' category in Open-Neo`,
+    description: `Browse all articles under the ${category} category in Open-Neo`,
   };
 }
 
@@ -36,18 +36,18 @@ export const HeaderLinks = [
 
 // Footer Links, src/components/Footer.astro
 export const FooterLinks = [
-  { href: "https://sky.cs.berkeley.edu/", title: "Sky Computing Lab @ Berkeley" },
+  { href: "https://sky.cs.berkeley.edu/", title: "Open-Neo @ Sydney (Website forked from Sky)" },
 ];
 
 // Social Links, src/components/Footer.astro
 export const SocialLinks = [
   {
-    href: "https://x.com/NovaSkyAI",
+    href: "https://x.com/Open-Neo",
     icon: "tabler:brand-twitter",
     label: "Twitter",
   },
   {
-    href: "https://github.com/NovaSky-AI/SkyThought",
+    href: "https://github.com/Open-Neo",
     icon: "tabler:brand-github",
     label: "GitHub",
   },
